@@ -1,0 +1,14 @@
+fallback/
+*.csv
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+CLAUDE.md
+tgo-course.code-workspace
+.venv/
+lectures/*/*.pptx
+lectures/*/build.js
+lectures/*/assets/
+.~lock.*#
+labs/*/solution/
