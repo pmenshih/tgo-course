@@ -16,3 +16,4 @@ assignments/*/solution/
 !*/artifacts/*.csv
 !assignments/*/examples/*.csv
 */corpus.txt
+*.pt
