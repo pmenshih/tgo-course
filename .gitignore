@@ -11,9 +11,14 @@ lectures/*/*.pptx
 lectures/*/assets/
 .~lock.*#
 assignments/*/solution/
+part-time/assignments/*/solution/
 
 # артефакты работ коммитятся, корпусы нет
 !*/artifacts/*.csv
 !assignments/*/examples/*.csv
+!part-time/assignments/*/examples/*.csv
 */corpus.txt
 *.pt
+
+# заочники: колоды не коммитятся, как и у очников
+part-time/lectures/*/*.pptx
