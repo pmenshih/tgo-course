@@ -7,4 +7,6 @@ ipykernel
 torch
 transformers
 accelerate
+datasets
+peft
 pytest
