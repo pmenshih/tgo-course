@@ -22,3 +22,6 @@ part-time/assignments/*/solution/
 
 # заочники: колоды не коммитятся, как и у очников
 part-time/lectures/*/*.pptx
+
+# инструменты лектора и ассистента, см. tools/README.md
+tools/
