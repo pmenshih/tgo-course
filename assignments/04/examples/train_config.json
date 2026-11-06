@@ -1,0 +1,30 @@
+{
+ "model": "Qwen/Qwen3-0.6B",
+ "dataset": "mteb/GeoreviewClassification",
+ "lora_r": 8,
+ "lora_alpha": 16,
+ "lora_dropout": 0.05,
+ "target_modules": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "trainable_params": 5046272,
+ "total_params": 596049920,
+ "trainable_pct": 0.847,
+ "train_examples": 5000,
+ "epochs": 1,
+ "steps": 625,
+ "batch": 8,
+ "lr": 0.0002,
+ "max_len": 256,
+ "train_minutes": 13.4,
+ "peak_memory_gb": null,
+ "device": "mps",
+ "dtype": "float32",
+ "seed": 0
+}
