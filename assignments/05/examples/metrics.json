@@ -1,0 +1,48 @@
+{
+ "model": "Qwen/Qwen3-0.6B",
+ "encoder": "intfloat/multilingual-e5-small",
+ "fast": false,
+ "device": "mps",
+ "k": 5,
+ "n_questions": 40,
+ "n_unanswerable": 10,
+ "n_chunks": 207,
+ "chunk_words_mean": 83.9,
+ "chunk_words_max": 267,
+ "corpus_tokens": 44126,
+ "modes": {
+  "no_search": {
+   "correct": 0.0,
+   "fabricated": 0.4,
+   "refusal_correct": 0.7,
+   "refusal_wrong": 0.5667,
+   "invalid": 0,
+   "prompt_tokens": 116.6,
+   "sec_per_question": 0.234
+  },
+  "rag": {
+   "correct": 0.3333,
+   "fabricated": 0.65,
+   "refusal_correct": 0.0,
+   "refusal_wrong": 0.1333,
+   "invalid": 0,
+   "prompt_tokens": 1311.3,
+   "sec_per_question": 0.259
+  },
+  "rag_verified": {
+   "correct": 0.2,
+   "fabricated": 0.2,
+   "refusal_correct": 0.6,
+   "refusal_wrong": 0.6667,
+   "invalid": 0,
+   "prompt_tokens": 1584.2,
+   "sec_per_question": 0.652
+  }
+ },
+ "verifier": {
+  "checked": 36,
+  "flagged": 22,
+  "precision": 0.8182,
+  "recall": 0.6923
+ }
+}
